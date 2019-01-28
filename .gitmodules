@@ -1,0 +1,9 @@
+[submodule "packages/shinyrecap"]
+	path = packages/shinyrecap
+	url = https://github.com/fellstat/shinyrecap
+[submodule "packages/combine_estimates"]
+	path = packages/combine_estimates
+	url = https://github.com/fellstat/combine_estimates
+[submodule "packages/TestingHistoryIncidence"]
+	path = packages/TestingHistoryIncidence
+	url = https://github.com/fellstat/TestingHistoryIncidence

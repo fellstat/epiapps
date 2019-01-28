@@ -1,0 +1,1 @@
+pandoc index.md --output=index.html --css=kult.css

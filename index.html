@@ -10,16 +10,47 @@
 </head>
 <body>
 <h1 id="shiny-applications-for-epidemiology">Shiny Applications for Epidemiology</h1>
-<p>epiapps.com is a public repository of useful statistical tools in the area of epidemiology.</p>
+<p>epiapps.com is a public hosted repository of useful statistical tools in the area of epidemiology. These applications are hosted and maintained by <a href="http://www.fellstat.com/">Fellows Statistics Inc.</a>. To report an issue or bug, please create a GitHub issue on <a href="https://github.com/fellstat/epiapps">the repository</a>.</p>
 <hr />
-<h2 id="multiple-source-capture-re-capture">Multiple Source Capture Re-capture</h2>
-<p>Implements user interfaces for log-linear models, Bayesian model averaging and Bayesian Dirichlet process mixture models.</p>
+<h2 id="consensus-estimation">Consensus Estimation</h2>
+<p>This tool assists in synthesizing multiple independent estimates of a quantity (e.g. population size or prevalence). Stakeholders may add additional information regarding the methodological quality of the studies and prior knowledge of the metric.</p>
 <h3 style="text-align: center;">
-<a href="https://epiapps.com/apps/sample-apps/hello/"> Launch Application</a>
+<a href="https://epiapps.com/apps/combine_estimates/"> Launch Application</a>
 </h3>
-<h3 id="resources">Resources:</h3>
+<h3 id="details">Details:</h3>
 <table>
 <tbody>
+<tr class="odd">
+<td align="right"><strong><em>Authors:</em></strong></td>
+<td align="left">Ian E. Fellows</td>
+</tr>
+<tr class="even">
+<td align="right"><strong><em>Github Repository:</em></strong></td>
+<td align="left"><a href="https://github.com/fellstat/combine_estimates" class="uri">https://github.com/fellstat/combine_estimates</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="multiple-source-capture-recapture">Multiple Source Capture Recapture</h2>
+<p>Implements user interfaces for log-linear models, Bayesian model averaging and Bayesian Dirichlet process mixture models.</p>
+<h3 style="text-align: center;">
+<a href="https://epiapps.com/apps/rcapture/"> Analysis Application</a> | <a href="https://epiapps.com/apps/capture_power/"> Power Calculator</a>
+</h3>
+<h3 id="details-1">Details:</h3>
+<table style="width:11%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="right"><strong><em>Authors:</em></strong></td>
+<td align="left">Ian E. Fellows</td>
+</tr>
+<tr class="even">
+<td align="right"><strong><em>Video Tutorial:</em></strong></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=PgmyUnFlo5Y&amp;feature=youtu.be" class="uri">https://www.youtube.com/watch?v=PgmyUnFlo5Y&amp;feature=youtu.be</a></td>
+</tr>
 <tr class="odd">
 <td align="right"><strong><em>Manual:</em></strong></td>
 <td align="left"><a href="https://fellstat.github.io/shinyrecap/" class="uri">https://fellstat.github.io/shinyrecap/</a></td>
@@ -27,6 +58,68 @@
 <tr class="even">
 <td align="right"><strong><em>Github Repository:</em></strong></td>
 <td align="left"><a href="https://github.com/fellstat/shinyrecap" class="uri">https://github.com/fellstat/shinyrecap</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="population-size-estimation-using-multiple-data-sources">Population Size Estimation Using Multiple Data Sources</h2>
+<p>Implements a user interface for an algorithm for presenting a Bayesian hierarchical model for estimating the sizes of local and national populations. The model incorporates multiple commonly used data sources including mapping data, surveys, interventions, capture-recapture data, estimates or guesstimates from organizations, and expert opinion.</p>
+<h3 style="text-align: center;">
+<a href="https://epiapps.com/apps/size_estimation/"> Launch Application</a>
+</h3>
+<h3 id="details-2">Details:</h3>
+<table style="width:11%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="right"><strong><em>Authors:</em></strong></td>
+<td align="left">Jacob Parsons using the algorithm developed by Le Bao, Adrian E. Raftery and Kyongwon Kim</td>
+</tr>
+<tr class="even">
+<td align="right"><strong><em>CRAN Repository:</em></strong></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=SizeEstimation" class="uri">https://CRAN.R-project.org/package=SizeEstimation</a></td>
+</tr>
+<tr class="odd">
+<td align="right"><strong><em>Reference:</em></strong></td>
+<td align="left">Bao, L., Raftery, A. E., &amp; Reddy, A. (2015). Estimating the sizes of populations at risk of HIV infection from multiple data sources using a Bayesian hierarchical model. Statistics and its Interface, 8(2), 125-136.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="incidence-estimation-in-cross-sectional-surveys-using-testing-history">Incidence Estimation In Cross-sectional Surveys Using Testing History</h2>
+<p>Utilizes crosssectional survey data containing information on participants' testing history and diagnosis to estimate incidence.</p>
+<h3 style="text-align: center;">
+<a href="https://epiapps.com/apps/testing_incidence/"> Launch Application</a>
+</h3>
+<h3 id="details-3">Details:</h3>
+<table style="width:11%;">
+<colgroup>
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="right"><strong><em>Authors:</em></strong></td>
+<td align="left">Ian E. Fellows</td>
+</tr>
+<tr class="even">
+<td align="right"><strong><em>Video Tutorial:</em></strong></td>
+<td align="left"><a href="https://www.youtube.com/watch?v=YVPcLLs9zxc&amp;t=08s" class="uri">https://www.youtube.com/watch?v=YVPcLLs9zxc&amp;t=08s</a></td>
+</tr>
+<tr class="odd">
+<td align="right"><strong><em>Manual:</em></strong></td>
+<td align="left"><a href="https://github.com/fellstat/TestingHistoryIncidence/wiki/Shiny-App-Documentation" class="uri">https://github.com/fellstat/TestingHistoryIncidence/wiki/Shiny-App-Documentation</a></td>
+</tr>
+<tr class="even">
+<td align="right"><strong><em>Github Repository:</em></strong></td>
+<td align="left"><a href="https://github.com/fellstat/TestingHistoryIncidence" class="uri">https://github.com/fellstat/TestingHistoryIncidence</a></td>
+</tr>
+<tr class="odd">
+<td align="right"><strong><em>Example Data:</em></strong></td>
+<td align="left"><a href="https://raw.githubusercontent.com/fellstat/TestingHistoryIncidence/master/inst/shiny_ui/tstdat.csv" class="uri">https://raw.githubusercontent.com/fellstat/TestingHistoryIncidence/master/inst/shiny_ui/tstdat.csv</a></td>
 </tr>
 </tbody>
 </table>
